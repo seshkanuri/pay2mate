@@ -1,0 +1,15 @@
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+┌──────────┬────┬─────────┬──────┬──────┬────────┬─────────┬────────┬──────┬───────────┬──────────┬──────────┐
+│ App name │ id │ version │ mode │ pid  │ status │ restart │ uptime │ cpu  │ mem       │ user     │ watching │
+├──────────┼────┼─────────┼──────┼──────┼────────┼─────────┼────────┼──────┼───────────┼──────────┼──────────┤
+│ app      │ 0  │ 1.0.0   │ fork │ 9246 │ online │ 751775  │ 1s     │ 100% │ 51.0 MB   │ yousevac │ disabled │
+└──────────┴────┴─────────┴──────┴──────┴────────┴─────────┴────────┴──────┴───────────┴──────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+[PM2][ERROR] Script already launched, add -f option to force re-execution
+┌──────────┬────┬─────────┬──────┬───────┬────────┬─────────┬────────┬─────┬───────────┬──────────┬──────────┐
+│ App name │ id │ version │ mode │ pid   │ status │ restart │ uptime │ cpu │ mem       │ user     │ watching │
+├──────────┼────┼─────────┼──────┼───────┼────────┼─────────┼────────┼─────┼───────────┼──────────┼──────────┤
+│ app      │ 0  │ 1.0.0   │ fork │ 15549 │ online │ 0       │ 6h     │ 0%  │ 44.3 MB   │ yousevac │ disabled │
+│ app      │ 1  │ 1.0.0   │ fork │ 5882  │ online │ 34      │ 2s     │ 50% │ 60.8 MB   │ yousevac │ disabled │
+└──────────┴────┴─────────┴──────┴───────┴────────┴─────────┴────────┴─────┴───────────┴──────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app

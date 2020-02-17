@@ -1,0 +1,42 @@
+{
+  "name": "echeck",
+  "version": "1.0.0",
+  "description": "for digital cheque deposit",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "debug": "nodemon --inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codextech/Echeck-System.git"
+  },
+  "engines": {
+    "node": "v8.11.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codextech/Echeck-System/issues"
+  },
+  "homepage": "https://github.com/codextech/Echeck-System#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "core-util-is": "^1.0.2",
+    "cors": "^2.8.5",
+    "crypto-json": "^2.0.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.5",
+    "nodemailer": "^6.1.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "sequelize": "^5.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

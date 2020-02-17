@@ -1,0 +1,6 @@
+DirectoryIndex disabled
+RewriteEngine On
+RewriteRule ^$ http://127.0.0.1:38800/ [P,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ http://127.0.0.1:38800/$1 [P,L]
